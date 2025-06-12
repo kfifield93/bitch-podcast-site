@@ -2,63 +2,91 @@ body {
   font-family: 'Rubik', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #f4f6f8;
+  color: #222;
 }
 
 header {
-  background-color: #003366;
+  background-color: #002244;
   color: white;
   text-align: center;
-  padding-bottom: 10px;
 }
 
 .header-img {
   width: 100%;
-  max-height: 300px;
+  max-height: 150px;
   object-fit: cover;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
-  margin: 10px 0;
+  gap: 20px;
+  background-color: #004080;
+  padding: 12px 0;
 }
 
 nav a {
-  color: #00cc66;
+  color: #ffcc00;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
-h2 {
-  color: #cc0000;
-  margin-top: 30px;
+nav a:hover {
+  color: #00ffcc;
 }
 
 main {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 30px 20px;
+}
+
+h2 {
+  color: #006600;
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.episode-list {
+  margin-top: 20px;
+}
+
+.episode {
+  background: white;
   padding: 20px;
+  margin-bottom: 15px;
+  border-left: 5px solid #006600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.episode-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #004080;
+  background-color: #cce5ff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.episode-link:hover {
+  background-color: #99ccff;
 }
 
 footer {
-  background-color: #003366;
+  background-color: #002244;
   color: white;
   text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
-}
-
-.episode-links a {
-  display: inline-block;
-  margin: 5px 10px;
-  font-weight: 600;
-}
-
-.episode-list ul {
-  margin: 10px 0;
-  padding-left: 20px;
+  padding: 20px 0;
+  margin-top: 60px;
 }
