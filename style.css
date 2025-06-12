@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #002244;
+  background-color: #d71920;
   color: white;
   text-align: center;
 }
@@ -23,12 +23,12 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  background-color: #004080;
+  background-color: #003366;
   padding: 12px 0;
 }
 
 nav a {
-  color: #ffcc00;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #00ffcc;
+  color: #ffd700;
 }
 
 main {
@@ -46,7 +46,7 @@ main {
 }
 
 h2 {
-  color: #006600;
+  color: #d71920;
   margin-top: 40px;
   font-size: 28px;
 }
@@ -63,7 +63,7 @@ h3 {
   background: white;
   padding: 20px;
   margin-bottom: 15px;
-  border-left: 5px solid #006600;
+  border-left: 5px solid #d71920;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
@@ -72,19 +72,19 @@ h3 {
   margin-top: 10px;
   font-weight: bold;
   text-decoration: none;
-  color: #004080;
-  background-color: #cce5ff;
+  color: #003366;
+  background-color: #f0f0f0;
   padding: 8px 12px;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 .episode-link:hover {
-  background-color: #99ccff;
+  background-color: #e6e6e6;
 }
 
 footer {
-  background-color: #002244;
+  background-color: #d71920;
   color: white;
   text-align: center;
   padding: 20px 0;
